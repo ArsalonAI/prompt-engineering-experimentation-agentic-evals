@@ -1,0 +1,26 @@
+# Virtual Environment
+csc7901_env/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Experiment outputs
+experiments/
+logs/
+wandb/
+
+# IDE specific files
+.vscode/
+.idea/ 
