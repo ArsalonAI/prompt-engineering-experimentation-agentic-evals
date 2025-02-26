@@ -1,13 +1,24 @@
+# Virtual Environment
+csc7901_env/
+venv/
+env/
+.pnp
+.pnp.js
+
 # Dependencies
 node_modules/
 /vendor/
-/.pnp
-.pnp.js
 
-# Testing
-/coverage/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Production build files
+# Build and Distribution
 /build/
 /dist/
 /out/
@@ -38,25 +49,11 @@ Thumbs.db
 .nuxt/
 .temp/
 
-# Python specific
-__pycache__/
-*.py[cod]
-*$py.class
-.Python
-venv/
-ENV/
-csc7901_env/    # Add your specific virtual environment
-*.pyc
-.pytest_cache/
-.coverage
-htmlcov/
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
 
-# Optional: Java specific
-*.class
-*.jar
-target/
-.gradle/
-
-# Optional: Ruby specific
-*.gem
-.bundle/ 
+# Experiment outputs
+experiments/
+logs/
+wandb/

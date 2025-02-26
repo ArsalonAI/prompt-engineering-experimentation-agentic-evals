@@ -4,7 +4,11 @@
 python -m venv csc7901_env
 
 # Activate virtual environment
+<<<<<<< HEAD
 source csc7901_env/bin/activate  # On Windows, use: csc7901_env\Scripts\activate
+=======
+source csc7901_env/bin/activate  
+>>>>>>> temp_branch
 
 # Install requirements
 pip install -r requirements.txt
