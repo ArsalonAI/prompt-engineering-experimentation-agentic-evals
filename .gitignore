@@ -1,7 +1,8 @@
 # Virtual Environment
-csc7901_env/
 venv/
+.venv/
 env/
+.env/
 .pnp
 .pnp.js
 
@@ -57,3 +58,6 @@ Thumbs.db
 experiments/
 logs/
 wandb/
+
+#cursor_prd
+cursor_prd/
